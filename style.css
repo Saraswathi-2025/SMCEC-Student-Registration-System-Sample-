@@ -579,4 +579,39 @@ body {
 
 .top-btn:hover {
     background: #005fcc;
+
+}
+/* MOBILE VIEW */
+@media (max-width: 600px) {
+
+    .container {
+        width: 90%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 16px;
+    }
 }
